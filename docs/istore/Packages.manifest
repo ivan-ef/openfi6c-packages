@@ -1,0 +1,64 @@
+Package: luci-app-store
+Version: 0.1.29-5
+Depends: luci-lib-taskd (>=1.0.19), libc, curl, opkg, luci-lib-ipkg, tar, libuci-lua, mount-utils, luci-lib-taskd, luci-lua-runtime
+Source: feeds/istore/luci/luci-app-store
+SourceName: luci-app-store
+Section: luci
+SourceDateEpoch: 1750820742
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 389120
+Filename: luci-app-store_0.1.29-5_all.ipk
+Size: 112674
+SHA256sum: 57988f7c1736276ad028bcc56fb3020393ec1fd94028f57623bc4807b3c66721
+Description:  luci-app-store is a ipk store developed by LinkEase team
+
+Package: luci-lib-taskd
+Version: 1.0.23
+Depends: taskd (>=1.0.3), libc, luci-lib-xterm, taskd, luci-lua-runtime
+Source: feeds/istore/luci/luci-lib-taskd
+SourceName: luci-lib-taskd
+Section: luci
+SourceDateEpoch: 1750820742
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-lib-taskd_1.0.23_all.ipk
+Size: 7436
+SHA256sum: 5fe209aaa5f8cd291e3bdf7b59a878932e948d1540be57aec56de5b3c73843e8
+Description:  Task library
+
+Package: luci-lib-xterm
+Version: 4.18.0
+Depends: libc, luci-lua-runtime
+Source: feeds/istore/luci/luci-lib-xterm
+SourceName: luci-lib-xterm
+License: MIT
+Section: luci
+SourceDateEpoch: 1750820742
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 368640
+Filename: luci-lib-xterm_4.18.0_all.ipk
+Size: 78123
+SHA256sum: 43272ed5454417cfab401a109df9c9d0b86c38719a0965554fb722fdf60ebe63
+Description:  Xterm.js library
+
+Package: taskd
+Version: 1.0.3-r2
+Depends: libc, procd, script-utils, coreutils, coreutils-stty
+Source: feeds/istore/luci/taskd
+SourceName: taskd
+Section: utils
+SourceDateEpoch: 1750820742
+Maintainer: jjm2473 <jjm2473@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: taskd_1.0.3-r2_all.ipk
+Size: 2386
+SHA256sum: a75f240d3760dfcdd4e6f255a4d6466e691207e7281ca76d42809fba99af8c42
+Description:  Simple Task Manager based on procd
+
