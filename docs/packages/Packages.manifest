@@ -1,0 +1,900 @@
+Package: adblock
+Version: 4.4.2-r3
+Depends: libc, jshn, jsonfilter, coreutils, coreutils-sort, gawk, ca-bundle, rpcd, rpcd-mod-rpcsys
+Source: feeds/packages/net/adblock
+SourceName: adblock
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1757183216
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: all
+Installed-Size: 102400
+Filename: adblock_4.4.2-r3_all.ipk
+Size: 20484
+SHA256sum: baf61465958e9777f89101e2cfc1569327875c350c7cfbb6d15e3f52fb7312b1
+Description:  adblock blocks ad/abuse domains via dnsmasq, unbound, named, smartdns or kresd.
+ adblock consumes a minimum of memory, is very fast and supports many domain blocklist sites plus local block- and allowlist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: bash
+Version: 5.2.32-r1
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://www.gnu.org/software/bash/
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1034240
+Filename: bash_5.2.32-r1_aarch64_cortex-a53.ipk
+Size: 472743
+SHA256sum: edc23e2f0626940869ee4a0d7e3bd630ac49c2010cb9ff4240f2775064b815e7
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bc
+Version: 1.07.1-r1
+Depends: libc, libreadline8, libncurses6
+Source: feeds/packages/utils/bc
+SourceName: bc
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://www.gnu.org/software/bc/
+CPE-ID: cpe:/a:gnu:bc
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: bc_1.07.1-r1_aarch64_cortex-a53.ipk
+Size: 36740
+SHA256sum: 958202dc0f5025d5c2b507a06ed60ba181c12ad186880c34c28cefbe289e75bb
+Description:  bc is a language that supports arbitrary precision numbers with
+ interactive execution of statements.
+
+Package: btrfs-progs
+Version: 6.11-r1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://btrfs.readthedocs.io
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2529280
+Filename: btrfs-progs_6.11-r1_aarch64_cortex-a53.ipk
+Size: 1139398
+SHA256sum: 44355de100ee4a81965f3d5590e27512ecdcababd1a577a7f20d538bc0bc93b9
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgi-io
+Version: 2022.08.10~901b0f04-r21
+Depends: libc, libubox20240329, libubus20250102
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1757183216
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: cgi-io_2022.08.10~901b0f04-r21_aarch64_cortex-a53.ipk
+Size: 10262
+SHA256sum: f7747f6ee1093a6e6f0217b3c29f51d6a3d63800001eecd6e8211beba72da1bb
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: containerd
+Version: 1.7.22-r1
+Depends: libc, btrfs-progs, runc
+Source: feeds/packages/utils/containerd
+SourceName: containerd
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://containerd.io/
+CPE-ID: cpe:/a:linuxfoundation:containerd
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 110192640
+Filename: containerd_1.7.22-r1_aarch64_cortex-a53.ipk
+Size: 35971152
+SHA256sum: 1c79d78160b46b79ec04126a326b08cf1690965c991fb7a8fc9f22885aa6d309
+Description:  An industry-standard container runtime with an emphasis on simplicity, robustness and portability
+
+Package: coreutils-sort
+Version: 9.7-r1
+Depends: libc, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/libexec/sort-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: coreutils-sort_9.7-r1_aarch64_cortex-a53.ipk
+Size: 50438
+SHA256sum: 37a4e1248b45d7c2f4c6c020ac1e272fde1b6c5ce1567eed642b0da7161966cb
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-stat
+Version: 9.7-r1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: coreutils-stat_9.7-r1_aarch64_cortex-a53.ipk
+Size: 49899
+SHA256sum: 4e8ff1208fa705b6fbf7a4d6d6cd599d7392d152801938b8c02a9bd33bc60439
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stty
+Version: 9.7-r1
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: coreutils-stty_9.7-r1_aarch64_cortex-a53.ipk
+Size: 34254
+SHA256sum: ad6cf6bc59ce597ca260ccdba69d06825636fd6b59469bcf1155eacc9f25bf73
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils
+Version: 9.7-r1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: http://www.gnu.org/software/coreutils/
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: coreutils_9.7-r1_aarch64_cortex-a53.ipk
+Size: 1003
+SHA256sum: 0eccb1657119603fb6cdbc33a469cad9068f402662534e8f0294754f7f5bf45e
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 8.12.1-r1
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1757183216
+URL: https://curl.se/
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: curl_8.12.1-r1_aarch64_cortex-a53.ipk
+Size: 70276
+SHA256sum: 37fceb8f6b9d50d1122da251a3641014dfab90577cd1d86402f65e4130020648
+Description:  A client-side URL transfer utility
+
+Package: docker-compose
+Version: 2.39.1-r1
+Depends: libc, docker
+Source: feeds/packages/utils/docker-compose
+SourceName: compose
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://github.com/docker/compose
+Maintainer: Javier Marcet <javier@marcet.info>
+Architecture: aarch64_cortex-a53
+Installed-Size: 63733760
+Filename: docker-compose_2.39.1-r1_aarch64_cortex-a53.ipk
+Size: 17878991
+SHA256sum: cc2bb68ecf4978fb9c2ea87f07a8af68d60c376736b3ecb6edd0f7e624a1ccba
+Description:  Multi-container orchestration for Docker
+
+Package: docker
+Version: 27.3.1-r1
+Depends: libc
+Source: feeds/packages/utils/docker
+SourceName: docker
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://www.docker.com/
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 26337280
+Filename: docker_27.3.1-r1_aarch64_cortex-a53.ipk
+Size: 8519137
+SHA256sum: 0eea75172336593c49cd630687adc3ee3f72c72b579d2d44af70be6587cd9b63
+Description:  The CLI used in the Docker CE and Docker EE products.
+
+Package: gawk
+Version: 5.3.0-r2
+Depends: libc, libncursesw6, libreadline8
+Alternatives: 200:/usr/bin/awk:/usr/bin/gawk
+Source: feeds/packages/utils/gawk
+SourceName: gawk
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://www.gnu.org/software/gawk/
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1515520
+Filename: gawk_5.3.0-r2_aarch64_cortex-a53.ipk
+Size: 288614
+SHA256sum: 735718241a92500d2403cb5b4d029046ecfad47d4570d9229e613cf49a03c89e
+Description:  GNU awk
+
+Package: https-dns-proxy
+Version: 2025.05.11-r1
+Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
+Conflicts: https_dns_proxy
+Source: feeds/packages/net/https-dns-proxy
+SourceName: https-dns-proxy
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1757183216
+URL: https://github.com/stangri/https-dns-proxy/
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: https-dns-proxy_2025.05.11-r1_aarch64_cortex-a53.ipk
+Size: 24374
+SHA256sum: 7dfbbc5cd635219b5525060de019f44bc1700547efc60f37594ea25cf338e428
+Description:  Light-weight DNS-over-HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
+ It receives regular, unencrypted (UDP) DNS requests and resolves them via DoH resolver.
+ Please see https://docs.openwrt.melmac.net/https-dns-proxy/ for more information.
+
+Package: jq
+Version: 1.7.1-r1
+Depends: libc
+Source: feeds/packages/utils/jq
+SourceName: jq
+License: MIT
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://jqlang.github.io/jq/
+CPE-ID: cpe:/a:jqlang:jq
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 337920
+Filename: jq_1.7.1-r1_aarch64_cortex-a53.ipk
+Size: 130670
+SHA256sum: b05fae98f881f71de0e4cad03bac6a8c1f7861a4737ca7818d7cf3127deef34c
+Description:  Lightweight and flexible command-line JSON processor.
+
+Package: libacl
+Version: 2.3.2-r2
+Depends: libc, libattr
+Source: feeds/packages/utils/acl
+SourceName: acl
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://savannah.nongnu.org/projects/acl
+CPE-ID: cpe:/a:acl_project:acl
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libacl_2.3.2-r2_aarch64_cortex-a53.ipk
+Size: 13522
+SHA256sum: e03a7e8fae1b6ad726888b00339e932a7dbec75357beb5c7fa2c403eb63dec92
+Description:  Access control list support
+ This package provides libacl
+
+Package: libattr
+Version: 2.5.2-r3
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1757183216
+URL: http://savannah.nongnu.org/projects/attr
+CPE-ID: cpe:/a:attr_project:attr
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: libattr_2.5.2-r3_aarch64_cortex-a53.ipk
+Size: 7653
+SHA256sum: 68b94596572eb3c6fdd3dabf6480d6719d50c931757c6c0d22fe4245c8497ab5
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libcap-ng
+Version: 0.8.4-r1
+Depends: libc
+Source: feeds/packages/libs/libcap-ng
+SourceName: libcap-ng
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://people.redhat.com/sgrubb/libcap-ng/index.html
+CPE-ID: cpe:/a:libcap-ng_project:libcap-ng
+Maintainer: Lucian CRISTIAN <lucian.cristian@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libcap-ng_0.8.4-r1_aarch64_cortex-a53.ipk
+Size: 9314
+SHA256sum: 27ae139940d16696ea9d2410f6cf888cbc6cba25d0975d52e44ce7e06d7b592e
+Description:  POSIX capabilities library library
+
+Package: libcares
+Version: 1.33.1-r1
+Depends: libc
+Source: feeds/packages/libs/c-ares
+SourceName: c-ares
+License: MIT
+LicenseFiles: LICENSE.md
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://c-ares.org/
+CPE-ID: cpe:/a:c-ares_project:c-ares
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 266240
+Filename: libcares_1.33.1-r1_aarch64_cortex-a53.ipk
+Size: 88293
+SHA256sum: 2f16d8a92f91f169f3ff4cb772a6a368c8d903a667d02ab01ae428801910d542
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libcurl4
+Version: 8.12.1-r1
+Depends: libc, libmbedtls21, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://curl.se/
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: libcurl4_8.12.1-r1_aarch64_cortex-a53.ipk
+Size: 250335
+SHA256sum: 502caf6a855db16c0153ab4f3a9a71921f55beaccc9fe163afb2da0498e8f64c
+Description:  A client-side URL transfer library
+
+Package: libev
+Version: 4.33-r2
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause or GPL-2.0-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1757183216
+URL: http://software.schmorp.de/pkg/libev.html
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libev_4.33-r2_aarch64_cortex-a53.ipk
+Size: 24536
+SHA256sum: 5add0c6b2138adb215be68de86a323d4b7ea6fa5cec02b902babf63059d754a7
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevdev
+Version: 1.13.1-r1
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://www.freedesktop.org/wiki/Software/libevdev/
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libevdev_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 32875
+SHA256sum: 95f9682c58e144b4658d5a3ba36da1e5462da7ded4e4f4593622d045ee50c436
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: liblz4-1
+Version: 1.10.0-r1
+Depends: libc
+Provides: liblz4
+Source: feeds/packages/libs/liblz4
+SourceName: lz4
+License: BSD-2-Clause
+LicenseFiles: LICENSE lib/LICENSE
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://www.lz4.org/
+ABIVersion: -1
+CPE-ID: cpe:/a:lz4_project:lz4
+Maintainer: Darik Horn <dajhorn@vanadac.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblz4-1_1.10.0-r1_aarch64_cortex-a53.ipk
+Size: 57988
+SHA256sum: 6e01d2d8b6bbde8de762830f60a4278d2bdade33c06f5cf6e2fee31a01619754
+Description:  LZ4 is a compression codec that features a very fast encoder and an
+ even faster decoder. This package provides the liblz4 shared library.
+
+Package: liblzma
+Version: 5.6.2-r2
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later 0BSD
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzma_5.6.2-r2_aarch64_cortex-a53.ipk
+Size: 65763
+SHA256sum: 46d7c167c092fb2156a888b09a3133886ea30858489dcd5bbd514f83c9c07c2e
+Description:  liblzma library from XZ Utils
+
+Package: liblzo2
+Version: 2.10-r4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: lzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: http://www.oberhumer.com/opensource/lzo/
+ABIVersion: 2
+CPE-ID: cpe:/a:oberhumer:lzo
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: liblzo2_2.10-r4_aarch64_cortex-a53.ipk
+Size: 39154
+SHA256sum: 80b9a3e1dccaf0f1ff05fbd96d1bd911efda91b559c796c03f255654cb857f4b
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libnghttp2-14
+Version: 1.63.0-r1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: nghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+ABIVersion: -14
+CPE-ID: cpe:/a:nghttp2:nghttp2
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libnghttp2-14_1.63.0-r1_aarch64_cortex-a53.ipk
+Size: 73607
+SHA256sum: 6207cc48cf84547b3262d092a1ceebc139fbf7a1c122b30aee3553e74f8142a6
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libqrencode
+Version: 4.1.1-r1
+Depends: libc
+Source: feeds/packages/libs/qrencode
+SourceName: qrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://fukuchi.org/works/qrencode/
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libqrencode_4.1.1-r1_aarch64_cortex-a53.ipk
+Size: 19607
+SHA256sum: bb710027fe9cd0351c91e88d6f0f2325d10f7d2566f1119a586d4a64c678d281
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: libseccomp
+Version: 2.5.5-r1
+Depends: libc
+Source: feeds/packages/libs/libseccomp
+SourceName: libseccomp
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://github.com/seccomp/libseccomp/wiki
+CPE-ID: cpe:/a:libseccomp_project:libseccomp
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: libseccomp_2.5.5-r1_aarch64_cortex-a53.ipk
+Size: 43877
+SHA256sum: de3407c1ea1a11d72d3274f726b747995394d6c3489e95d4257844963a4e0f35
+Description:  This package contains the seccomp library.
+
+Package: libudev-zero
+Version: 1.0.3-r1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://github.com/illiliti/libudev-zero
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: libudev-zero_1.0.3-r1_aarch64_cortex-a53.ipk
+Size: 11100
+SHA256sum: d612dd906913ed448b772fc83c445f3a5bcabf82fc459c17969a13c5c66c50b7
+Description:  Drop-in replacement for libudev
+
+Package: libuv1
+Version: 1.48.0-r1
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://libuv.org/
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv:libuv
+Maintainer: Marko Ratkaj <markoratkaj@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libuv1_1.48.0-r1_aarch64_cortex-a53.ipk
+Size: 76014
+SHA256sum: 67539e3830f3e184ea4124687e3943a96ee401eceb2db982b9c95e10538b0c59
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 4.3.3-r1
+Depends: libc, zlib, libcap, libubox20240329, libopenssl3, libuv1
+Provides: libwebsockets, libwebsockets-openssl
+Source: feeds/packages/libs/libwebsockets
+SourceName: libwebsockets
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://libwebsockets.org
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 604160
+Filename: libwebsockets-full_4.3.3-r1_aarch64_cortex-a53.ipk
+Size: 202019
+SHA256sum: 01178f6f8d14e186cbeee9155909827a4fb40595f45fd7def481089fad4ec175
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libzstd
+Version: 1.5.7-r1
+Depends: libc
+Source: feeds/packages/utils/zstd
+SourceName: zstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1757183216
+URL: https://github.com/facebook/zstd
+CPE-ID: cpe:/a:facebook:zstandard
+Maintainer: Aleksey Vasilenko <aleksey.vasilenko@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 798720
+Filename: libzstd_1.5.7-r1_aarch64_cortex-a53.ipk
+Size: 343027
+SHA256sum: 81bb5ad0fc42d8d2779242c1020ae9f345ccf0ca47ba288ece866fabe6c9b42e
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: mwan3
+Version: 2.11.16-r5
+Depends: libc, ip, ipset, iptables, ip6tables, iptables-mod-conntrack-extra, iptables-mod-ipopt, jshn
+Source: feeds/packages/net/mwan3
+SourceName: mwan3
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1757183216
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 163840
+Filename: mwan3_2.11.16-r5_all.ipk
+Size: 23623
+SHA256sum: d6dc8e3d30d4551c4eae95c73b47bc2a512e376998d8159bcfebb31ff366a9fd
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: openvpn-openssl
+Version: 2.6.14-r1
+Depends: libc, kmod-tun, libcap-ng, liblzo2, liblz4-1, libopenssl3
+Provides: openvpn, openvpn-crypto
+Source: feeds/packages/net/openvpn
+SourceName: openvpn
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1757183216
+URL: http://openvpn.net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: aarch64_cortex-a53
+Installed-Size: 645120
+Filename: openvpn-openssl_2.6.14-r1_aarch64_cortex-a53.ipk
+Size: 253721
+SHA256sum: e8247f4f5f64e0555fbcf5e0cae47194d7c6b956be7431b8ee94ca13b0348eb5
+Description:  Open source VPN solution using OpenSSL
+
+Package: qrencode
+Version: 4.1.1-r1
+Depends: libc, libqrencode
+Source: feeds/packages/libs/qrencode
+SourceName: qrencode
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: http://fukuchi.org/works/qrencode/
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: qrencode_4.1.1-r1_aarch64_cortex-a53.ipk
+Size: 11207
+SHA256sum: ee1d3691eaf71bda68724b1efdbcd5fcec4b3e6a04970998d43c9b707084aa36
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: runc
+Version: 1.1.14-r1
+Depends: libc, libseccomp
+Source: feeds/packages/utils/runc
+SourceName: runc
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://www.opencontainers.org/
+CPE-ID: cpe:/a:linuxfoundation:runc
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10229760
+Filename: runc_1.1.14-r1_aarch64_cortex-a53.ipk
+Size: 3577110
+SHA256sum: 26f942e44ed4ce3e381057f50a3b1d3d989b14874e6d393bbe482bb15515d187
+Description:  runc is a CLI tool for spawning and running containers according to the OCI specification.
+
+Package: tar
+Version: 1.35-r1
+Depends: xz, libc, libacl, libattr, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+Source: feeds/packages/utils/tar
+SourceName: tar
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://www.gnu.org/software/tar/
+CPE-ID: cpe:/a:gnu:tar
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Filename: tar_1.35-r1_aarch64_cortex-a53.ipk
+Size: 199259
+SHA256sum: 372fd3f2f2b0902b2c08973dd5ed61e39de1c5c73416425645634ccfa14e2a30
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tini
+Version: 0.19.0-r2
+Depends: libc
+Source: feeds/packages/utils/tini
+SourceName: tini
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://github.com/krallin/tini
+CPE-ID: cpe:/a:tini_project:tini
+Maintainer: Gerard Ryan <G.M0N3Y.2503@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: tini_0.19.0-r2_aarch64_cortex-a53.ipk
+Size: 41445
+SHA256sum: 5ea0f52dd80bc04ea8ab80168f319014dabb486cc50839c2cdb7eb0eb6463fc1
+Description:  A tiny but valid init process for containers.
+
+Package: travelmate
+Version: 2.1.3-r3
+Depends: libc, iwinfo, jshn, jsonfilter, curl, ca-bundle, rpcd, rpcd-mod-rpcsys
+Source: feeds/packages/net/travelmate
+SourceName: travelmate
+License: GPL-3.0-or-later
+Section: net
+SourceDateEpoch: 1757183216
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: all
+Installed-Size: 92160
+Filename: travelmate_2.1.3-r3_all.ipk
+Size: 18070
+SHA256sum: a9189cbb453bee703ca42a97af00a2f9afe11a2dcea51b58b6de7a92335a5b57
+Description:  A wlan connection manager for travel routers.
+ Please see https://github.com/openwrt/packages/blob/master/net/travelmate/files/README.md for further information.
+ 
+
+Package: ttyd
+Version: 1.7.3-r1
+Depends: libc, libcap, libopenssl3, libjson-c5, libuv1, zlib, libwebsockets-full
+Source: feeds/packages/utils/ttyd
+SourceName: ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://github.com/tsl0922/ttyd
+CPE-ID: cpe:/a:ttyd_project:ttyd
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 512000
+Filename: ttyd_1.7.3-r1_aarch64_cortex-a53.ipk
+Size: 335579
+SHA256sum: 4ad010af66ca89e5d43da98bb6dc2e7a1312111dc8243846949494af54570cdc
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: usbids
+Version: 0.387-r1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: hwdata
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://github.com/vcrhonek/hwdata
+Architecture: aarch64_cortex-a53
+Installed-Size: 737280
+Filename: usbids_0.387-r1_aarch64_cortex-a53.ipk
+Size: 255815
+SHA256sum: ab06f4fb0415954dfeb99931fb66f86bc8eca5d11447c8f2a282e61592b58ba7
+Description:  USB ID list
+
+Package: usbutils
+Version: 017-r1
+Depends: libc, libusb-1.0-0, libudev, librt, libpthread, usbids
+Source: feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: http://www.linux-usb.org/
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 245760
+Filename: usbutils_017-r1_aarch64_cortex-a53.ipk
+Size: 56526
+SHA256sum: 41a8523e625fb313b9d6886069bb8fbb9b1aa288417428dca9da50c6d088ba6e
+Description:  USB devices listing utilities
+
+Package: watchcat
+Version: 1-r17
+Depends: libc
+Source: feeds/packages/utils/watchcat
+SourceName: watchcat
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1757183216
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: all
+Installed-Size: 30720
+Filename: watchcat_1-r17_all.ipk
+Size: 4429
+SHA256sum: ae05620d4c941f1275a3c202a565f066b7cfd5f64336892b0b1a2655c37a3b21
+Description:  Restart network interfaces or reboot if pings to hosts fail, or set up periodic reboots. Configured via UCI /etc/config/watchcat
+
+Package: xz-utils
+Version: 5.6.2-r2
+Depends: libc
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later 0BSD
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: xz-utils_5.6.2-r2_aarch64_cortex-a53.ipk
+Size: 855
+SHA256sum: 03a0a7a0b0038608cf20d9638372f63f2a28558d08cf133598535a8af68773d4
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.6.2-r2
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later 0BSD
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1757183216
+URL: https://tukaani.org/xz
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: xz_5.6.2-r2_aarch64_cortex-a53.ipk
+Size: 30779
+SHA256sum: 0417ca8a35d366456e4595d986dc96c3b7487efcfeb5006c03cc733db6e9ff07
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+

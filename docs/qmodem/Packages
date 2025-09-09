@@ -1,0 +1,124 @@
+Package: luci-app-qmodem-mwan
+Version: 2.8.8-r1
+Depends: libc, luci-app-qmodem, luci-app-mwan3, luci-lua-runtime
+License: GPLv3
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-qmodem-mwan_2.8.8-r1_all.ipk
+Size: 4176
+SHA256sum: 69500b12cb8e005389050fd5e59a521bfbe27c6b56ce50b830a99fb9db7ae293
+Description:  Luci qwrt modem mwan support
+
+Package: luci-app-qmodem-sms
+Version: 2.8.8-r1
+Depends: libc, luci-app-qmodem, sms-forwarder, luci-lua-runtime
+License: GPLv3
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 61440
+Filename: luci-app-qmodem-sms_2.8.8-r1_all.ipk
+Size: 11939
+SHA256sum: d1adfd0d75f08b1e5415ef2a5ad97ee1cd08600efa04108256c72280edcd4e8b
+Description:  Luci qwrt modem sms support
+
+Package: luci-app-qmodem-ttl
+Version: 2.8.8-r1
+Depends: libc, luci-app-qmodem, luci-lua-runtime
+License: GPLv3
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-qmodem-ttl_2.8.8-r1_all.ipk
+Size: 2491
+SHA256sum: d818862088829648a5ad72dd53ccd28f422db3066ad5cedb426f360756a053cc
+Description:  Luci qwrt modem ttl support
+
+Package: luci-app-qmodem
+Version: 2.8.8-r1
+Depends: libc, luci-compat, qmodem, luci-lua-runtime
+License: GPLv3
+Section: luci
+URL: https://github.com/openwrt/luci
+Architecture: all
+Installed-Size: 122880
+Filename: luci-app-qmodem_2.8.8-r1_all.ipk
+Size: 23048
+SHA256sum: 01193d0a9f87dd161e9f30522030217ba00f3d1a719ca2d07c147499a199a397
+Description:  LuCI support for QWRT Modem
+
+Package: ndisc6
+Version: 1.0.8-r1
+Depends: libc
+Section: network
+URL: https://www.remlab.net/ndisc6/
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: ndisc6_1.0.8-r1_aarch64_cortex-a53.ipk
+Size: 13084
+SHA256sum: 1fa8d580754e46e771e834d81c5e675c6e6a171d8065e40d632ffa454e9849ec
+Description:  NDisc6 is a small collection of useful tools for IPv6 networking
+
+Package: qmodem
+Version: 2.8.8-r1
+Depends: libc, kmod-usb2, kmod-usb3, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-qualcomm, kmod-usb-net, kmod-usb-acm, kmod-usb-wdm, kmod-usb-net-cdc-ether, kmod-usb-net-cdc-mbim, kmod-usb-net-rndis, kmod-usb-net-cdc-ncm, kmod-usb-net-huawei-cdc-ncm, tom_modem, terminfo, sms-tool_q, jq, bc, coreutils, coreutils-stat, usbutils, ndisc6, kmod-qmi_wwan_q, kmod-qmi_wwan_f, kmod-qmi_wwan_s, quectel-CM-5G-M
+Section: utils
+Architecture: all
+Installed-Size: 563200
+Filename: qmodem_2.8.8-r1_all.ipk
+Size: 83347
+SHA256sum: adf7ba312f7a67a6a6f15845b7bbf8437840ee0d0dcb492e9ed7b40af8072c57
+Description:  QModem scripts
+
+Package: quectel-CM-5G-M
+Version: 2.8.8-r1
+Depends: libc
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: quectel-CM-5G-M_2.8.8-r1_aarch64_cortex-a53.ipk
+Size: 68349
+SHA256sum: 81216e878c8e636eb723884d2e570a445d8cfd8ccf72beaaa883fe0c6723dbd8
+Description:  quectel-CM-5G app building test
+
+Package: sms-forwarder
+Version: 2.8.8-r1
+Depends: libc, tom_modem, jq, curl, libjson-c5
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 102400
+Filename: sms-forwarder_2.8.8-r1_aarch64_cortex-a53.ipk
+Size: 12179
+SHA256sum: 69d0e94dbb00a12928502acc42ce419b7e9712a5586ec86633a28c742315d889
+Description:  SMS forward service for QModem that supports multiple forwarding methods:
+ - Telegram Bot
+ - ServerChan
+ - Generic Webhook
+ - Custom Script
+
+Package: sms-tool_q
+Version: 2.8.8-r1
+Depends: libc
+Section: utils
+URL: https://github.com/obsy/sms_tool
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: sms-tool_q_2.8.8-r1_aarch64_cortex-a53.ipk
+Size: 10017
+SHA256sum: bc8faec9e96992ecb039af2b08db6483da5a9b779810c2150b25b8ac5b1e6ca1
+Description:  SMS Tool for 3G/4G/5G modem
+
+Package: tom_modem
+Version: 2.8.8-r1
+Depends: libc, libubus20250102, libubox20240329, libjson-c5, libblobmsg-json20240329
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: tom_modem_2.8.8-r1_aarch64_cortex-a53.ipk
+Size: 16867
+SHA256sum: 3bb757073c9dabcdd014cb7b2f0e9738c4eee0a083cb5cbf91e4c29a5db9e0f4
+Description:  Modem Communite Tool for 5G modem (By Fujr)
+

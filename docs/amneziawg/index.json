@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "amneziawg-tools": "1.0.20240213-r1",
+    "luci-app-amneziawg": "25.198.23961~199ec6a"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "architecture": "aarch64_cortex-a53",
+  "packages": {
+    "luci-app-qmodem-mwan": "2.8.8-r1",
+    "luci-app-qmodem-sms": "2.8.8-r1",
+    "luci-app-qmodem-ttl": "2.8.8-r1",
+    "luci-app-qmodem": "2.8.8-r1",
+    "ndisc6": "1.0.8-r1",
+    "qmodem": "2.8.8-r1",
+    "quectel-CM-5G-M": "2.8.8-r1",
+    "sms-forwarder": "2.8.8-r1",
+    "sms-tool_q": "2.8.8-r1",
+    "tom_modem": "2.8.8-r1"
+  }
+}
